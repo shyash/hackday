@@ -22,8 +22,11 @@ let dataset = [
 ];
 
 function ReLU(num) {
-  if (num < 0) {
-    return 0;
+  if (num < 10) {
+    return 10;
+  }
+  else if(num>=30){
+      return 30
   }
   return num;
 }
