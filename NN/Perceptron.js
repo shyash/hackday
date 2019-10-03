@@ -1,6 +1,9 @@
-function activation_function(num){
-    if(num<0){
-        return 0;
+function Relu(num){
+    if(num<10){
+        return 10;
     }
-    return 1
+    if(num>=30){
+        return 30;
+    }
+    return num
 }
