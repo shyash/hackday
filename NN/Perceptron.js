@@ -7,3 +7,5 @@ function Relu(num){
     }
     return num
 }
+let W = [0,0]
+let B = 0
