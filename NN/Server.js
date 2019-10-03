@@ -21,11 +21,11 @@ let dataset = [
   { age: 23, bmi: 21, target: 28 }
 ];
 
-function activation_function(num) {
+function ReLU(num) {
   if (num < 0) {
     return 0;
   }
-  return 1;
+  return num;
 }
 W = np.array([[0, 0]]);
 B = 0;
