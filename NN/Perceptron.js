@@ -1,4 +1,4 @@
-function step(num){
+function ReLU(num){
     if(num<10){
         return 10;
     }
