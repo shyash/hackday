@@ -1,11 +1,11 @@
-function ReLU(num){
-    if(num<10){
+function ReLU(number){
+    if(number<10){
         return 10;
     }
-    if(num>=30){
+    if(number>=30){
         return 30;
     }
-    return num
+    return number
 }
 let W = [0,0]
 let B = 0
